@@ -7,8 +7,13 @@ function App() {
   let [count, setCount] = useState(0)
 
   const increment=()=>{
-    count=count+1
-    setCount(count)
+    // count=count+1
+    setCount((count)=>count+1)
+    // setCount((count)=>count+1)
+    // setCount((count)=>count+1)
+    // setCount(count+1)
+    // setCount(count+1)
+    // setCount(count+1)    //what will be output
   }
   
   const decrement=()=>{
