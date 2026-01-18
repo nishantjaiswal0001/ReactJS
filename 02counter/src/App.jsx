@@ -1,9 +1,9 @@
 import { useState,useEffect } from "react"
-
-function App() {
+// useState → used to create state variables
+// useEffect → used for side effects (API calls, timers, etc.)
+function App() {  //This is a React Functional Component,Must start with a capital letter,It returns JSX (UI)
   let [counter,setCounter]=useState(15)
   // let counter=15
-
   const addvalue=()=>{
     counter=(counter<20)?counter+1:counter;
     setCounter(counter)

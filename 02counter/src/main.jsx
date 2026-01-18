@@ -1,6 +1,6 @@
-import { StrictMode } from 'react'
+import { StrictMode } from 'react'  //StrictMode is a development-only tool. Helps detect: Unsafe lifecycle methods, Side-effects inside render
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
+import App from './App.jsx'  //Imports the root UI component
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
